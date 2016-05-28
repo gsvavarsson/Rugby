@@ -1,0 +1,59 @@
+body.heim {
+	&.scrolled {
+		padding-top: 100px;
+	}
+		
+}
+.fp-elements {
+	padding-right: 185px;
+	background: white;
+}
+.top-box {
+	> * {
+		height: 100%;
+		> div {
+			height: 100%;
+			> div {
+				height: 50%;
+			}
+		}
+	}
+	* {
+		background-position: 50% 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+.blog-demo {
+	position: relative;
+	background: white;
+	.blog-demo-inner {
+		padding: 45px 30px;
+	}
+	.blog-image {
+		width: 200px;
+		min-height: 200px;
+		border-radius: 100%;
+		@include translate(-15px, -15px);
+		float: left;
+	}
+	h1 {
+		position: absolute;
+		right: 0px;
+		top: 103px;
+		transform: translate(0%, -50%);
+		right: 30px;
+		float: right; 
+		font-size: 60px;
+		@include calc(width, "100% - 290px");
+	}
+	.blog-summary {
+		width: 100%;
+		overflow: hidden;
+		color: black;
+		line-height: 1.8;
+		a {
+			font-weight: 600;
+		}
+	}
+}

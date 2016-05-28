@@ -1,0 +1,220 @@
+﻿ 2016-02-15 08:31:44,813 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-02-15 08:31:44,813 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-02-15 08:31:44,813 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-02-15 08:31:44,813 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-02-15 08:31:44,813 [P8508/D2/T1043] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-02-15 08:31:44,813 [P8508/D2/T1050] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-02-15 08:31:44,844 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-02-15 08:31:44,844 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-02-15 08:31:44,844 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-02-15 08:31:44,844 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-02-15 08:31:44,844 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-02-15 08:31:44,844 [P8508/D2/T1042] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-02-15 08:31:44,844 [P8508/D2/T1003] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-02-15 08:31:44,844 [P8508/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-02-15 08:31:44,844 [P8508/D2/T1004] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-02-15 22:34:20,914 [P9812/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.7 application starting on SENDIRADIDGISLI
+ 2016-02-15 22:34:20,967 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-02-15 22:34:20,980 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2016-02-15 22:34:21,126 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-02-15 22:34:21,212 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 85ms)
+ 2016-02-15 22:34:21,248 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-02-15 22:34:21,249 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-02-15 22:34:21,250 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-02-15 22:34:21,250 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-02-15 22:34:21,266 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-02-15 22:34:21,267 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-02-15 22:34:21,267 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-02-15 22:34:21,269 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 1ms)
+ 2016-02-15 22:34:21,340 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-02-15 22:34:21,340 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-02-15 22:34:21,341 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-02-15 22:34:21,341 [P9812/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-02-15 22:34:22,082 [P9812/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-15 22:34:22,312 [P9812/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-15 22:34:22,361 [P9812/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-15 22:34:22,415 [P9812/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-02-15 22:34:22,483 [P9812/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-02-15 22:34:22,567 [P9812/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-02-15 22:34:22,581 [P9812/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1754ms)
+ 2016-02-15 22:34:23,513 [P9812/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://rugby2.local:80/umbraco (UmbracoModule request)
+ 2016-02-15 22:34:24,812 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-15 22:34:24,813 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-02-15 22:34:27,511 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-02-15 22:34:27,512 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-02-15 22:34:27,873 [P9812/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address 127.0.0.1
+ 2016-02-15 22:34:27,873 [P9812/D2/T15] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address 127.0.0.1
+ 2016-02-15 22:34:28,104 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-15 22:34:28,105 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-15 22:34:28,164 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-02-15 22:34:28,164 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-02-15 22:34:28,169 [P9812/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-15 22:34:28,171 [P9812/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-02-15 22:34:28,187 [P9812/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-15 22:34:28,187 [P9812/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-15 22:34:28,190 [P9812/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-15 22:34:28,191 [P9812/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-02-15 22:35:24,574 [P9812/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-14 22:35:24
+ 2016-02-15 22:35:24,578 [P9812/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-02-15 22:35:24,582 [P9812/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-02-15 22:35:37,464 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-02-15 22:35:37,465 [P9812/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-02-15 22:37:07,915 [P9812/D2/T29] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Database exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): A duplicate value cannot be inserted into a unique index. [ Table name = cmsPropertyType,Constraint name = IX_cmsPropertyTypeUniqueID ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+ 2016-02-15 22:37:07,921 [P9812/D2/T29] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlServerCe.SqlCeException (0x80004005): A duplicate value cannot be inserted into a unique index. [ Table name = cmsPropertyType,Constraint name = IX_cmsPropertyTypeUniqueID ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+   at Umbraco.Core.Persistence.Database.Insert(Object poco)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeBaseRepository`1.PersistNewBaseContentType(ContentTypeDto dto, IContentTypeComposition entity)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeRepository.PersistNewItem(IContentType entity)
+   at Umbraco.Core.Cache.FullDataSetRepositoryCachePolicy`2.CreateOrUpdate(TEntity entity, Action`1 persistMethod)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.PersistNewItem(IEntity entity)
+   at Umbraco.Core.Persistence.UnitOfWork.PetaPocoUnitOfWork.Commit(Action`1 transactionCompleting)
+   at Umbraco.Core.Services.ContentTypeService.Save(IContentType contentType, Int32 userId)
+   at Umbraco.Core.Services.ContentTypeService.Copy(IContentType original, String alias, String name, IContentType parent)
+   at umbraco.dialogs.moveOrCopy.HandleDocumentTypeCopy()
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-15 22:37:29,021 [P9812/D2/T8] INFO  umbraco.content - Loading content from database...
+ 2016-02-15 22:37:33,051 [P9812/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:37:33,057 [P9812/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:37:34,899 [P9812/D2/T25] INFO  umbraco.content - Loading content from database...
+ 2016-02-15 22:37:38,931 [P9812/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:37:38,934 [P9812/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:37:42,987 [P9812/D2/T13] INFO  umbraco.content - Loading content from database...
+ 2016-02-15 22:37:47,011 [P9812/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:37:47,014 [P9812/D2/T9] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:37:56,106 [P9812/D2/T13] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentException: No node exists with id '1090'
+
+Server stack trace: 
+   at umbraco.cms.businesslogic.template.Template.setupNode()
+   at umbraco.settings.EditContentTypeNew.UpdateAllowedTemplates(DocumentType documentType)
+   at umbraco.controls.ContentTypeControlNew.<>c__DisplayClassa.<save_click>b__3(SaveAsyncState asyncState)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   at System.Runtime.Remoting.Messaging.StackBuilderSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.EndInvokeHelper(Message reqMsg, Boolean bProxyCase)
+   at System.Action`1.EndInvoke(IAsyncResult result)
+   at System.Web.UI.PageAsyncTaskApm.<ExecuteAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.UI.PageAsyncTaskManager.<ExecuteTasksAsync>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.UI.Page.<ProcessRequestAsync>d__554.MoveNext()
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.<ProcessRequestAsync>d__554.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.TaskAsyncHelper.EndTask(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+ 2016-02-15 22:38:32,817 [P9812/D2/T50] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Database exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): A duplicate value cannot be inserted into a unique index. [ Table name = cmsPropertyType,Constraint name = IX_cmsPropertyTypeUniqueID ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+ 2016-02-15 22:38:32,817 [P9812/D2/T50] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlServerCe.SqlCeException (0x80004005): A duplicate value cannot be inserted into a unique index. [ Table name = cmsPropertyType,Constraint name = IX_cmsPropertyTypeUniqueID ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco)
+   at Umbraco.Core.Persistence.Database.Insert(Object poco)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeBaseRepository`1.PersistNewBaseContentType(ContentTypeDto dto, IContentTypeComposition entity)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeRepository.PersistNewItem(IContentType entity)
+   at Umbraco.Core.Cache.FullDataSetRepositoryCachePolicy`2.CreateOrUpdate(TEntity entity, Action`1 persistMethod)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.PersistNewItem(IEntity entity)
+   at Umbraco.Core.Persistence.UnitOfWork.PetaPocoUnitOfWork.Commit(Action`1 transactionCompleting)
+   at Umbraco.Core.Services.ContentTypeService.Save(IContentType contentType, Int32 userId)
+   at Umbraco.Core.Services.ContentTypeService.Copy(IContentType original, String alias, String name, IContentType parent)
+   at umbraco.dialogs.moveOrCopy.HandleDocumentTypeCopy()
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-15 22:42:15,917 [P9812/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Heim' with Id '1080' has been published.
+ 2016-02-15 22:42:15,971 [P9812/D2/T94] INFO  Umbraco.Core.Services.ContentService - Call was made to ContentService.Publish, use PublishWithStatus instead since that method will provide more detailed information on the outcome
+ 2016-02-15 22:42:19,960 [P9812/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:42:19,963 [P9812/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:42:24,411 [P9812/D2/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-02-15 22:42:24,412 [P9812/D2/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2016-02-15 22:43:06,569 [P9812/D2/T71] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Database exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): The primary key value cannot be deleted because references to this key still exist. [ Foreign key constraint name = FK_cmsPropertyData_cmsPropertyType_id ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Execute(String sql, Object[] args)
+ 2016-02-15 22:43:23,395 [P9812/D2/T64] INFO  umbraco.content - Loading content from database...
+ 2016-02-15 22:43:27,415 [P9812/D2/T86] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:43:27,419 [P9812/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:43:30,256 [P9812/D2/T67] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Database exception occurred
+System.Data.SqlServerCe.SqlCeException (0x80004005): The primary key value cannot be deleted because references to this key still exist. [ Foreign key constraint name = FK_cmsPropertyData_cmsPropertyType_id ]
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.Database.Execute(String sql, Object[] args)
+ 2016-02-15 22:45:19,449 [P9812/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Heim' with Id '1080' has been published.
+ 2016-02-15 22:45:23,494 [P9812/D2/T86] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:45:23,496 [P9812/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:46:14,481 [P9812/D2/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-15 22:46:14,482 [P9812/D2/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-02-15 22:52:35,818 [P9812/D2/T32] INFO  umbraco.content - Loading content from database...
+ 2016-02-15 22:52:39,833 [P9812/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:52:39,837 [P9812/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:52:46,263 [P9812/D2/T103] INFO  umbraco.content - Loading content from database...
+ 2016-02-15 22:52:50,265 [P9812/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:52:50,268 [P9812/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:53:16,235 [P9812/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rugbyfélag Reykjavíkur' with Id '0' has been published.
+ 2016-02-15 22:53:20,259 [P9812/D2/T120] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:53:20,262 [P9812/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:53:35,189 [P9812/D2/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leikmenn' with Id '0' has been published.
+ 2016-02-15 22:53:39,203 [P9812/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:53:39,204 [P9812/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-15 22:55:42,085 [P9812/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Heim' with Id '1080' has been published.
+ 2016-02-15 22:55:46,118 [P9812/D2/T122] INFO  umbraco.content - Save Xml to file...
+ 2016-02-15 22:55:46,123 [P9812/D2/T86] INFO  umbraco.content - Saved Xml to file.

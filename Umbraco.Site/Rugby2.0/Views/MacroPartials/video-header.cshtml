@@ -1,0 +1,25 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+	var node = Model.Content;
+
+	var imageId = node.GetPropertyValue("video");
+	var posterImageId = node.GetPropertyValue("videoPoster");
+
+	var poster = Umbraco.TypedMedia(posterImageId).Url;
+	var video = Umbraco.TypedMedia(imageId).Url;
+}
+@if (video != null) { 
+	<section class="hero">
+		<div class="hero-inner" style="background: url(@poster);
+										background-size: cover;
+										background-position: center;" >
+			<div class="video-bg">
+				<video autoplay loop poster="@poster" id="bgvid">
+					<source src="@video" type="video/mp4">
+				</video>
+			</div><!-- .video-bg /media/1083/mannvit.mp4 -->
+		</div><!-- .hero-inner -->
+	</section><!-- .hero -->
+} else {
+	<p>Start node has not been selected</p>
+}

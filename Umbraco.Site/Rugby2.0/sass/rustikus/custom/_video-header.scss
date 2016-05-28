@@ -1,0 +1,19 @@
+.hero {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 9;
+	overflow: hidden;
+	display: inline-block;
+	@include transition(all 0.7s ease-in-out);
+	@include translate(0%, 0%);
+	video {
+		width: 100%;
+	}
+}
+body.scrolled {
+	.hero {
+		@include translate(0%, -100%);
+	}
+}

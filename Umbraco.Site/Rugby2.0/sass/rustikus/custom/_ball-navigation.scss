@@ -1,0 +1,111 @@
+/* HEADER
+---------------------------------------*/
+$nb-items: 4;
+%goo{
+	filter:url('#goo');
+	// debug 
+	// background:rgba(255,0,0,0.2);
+}
+%ball{
+	border-radius: 100%;
+	width: 80px;
+	height: 80px;
+	right: 20px;
+	position: absolute;
+	top: 20px;
+	color: white;
+	text-align: center;
+	line-height: 80px;
+	transform: translate3d(0,0,0);
+	@include gradient-horizontal($gray-darker, lighten($gray-darker, 5%));
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	max-width: 200px;
+	z-index: 10;
+	 &.scroll1 {
+		height: 100%;
+		width: 100px;
+		.navigation {
+			height: 100%;
+			width: 100%;
+			ul {
+				height: 100%;
+				li {
+					transform: rotate(90deg) translate(200px) rotate(-90deg) !important;
+				}
+			}
+		}
+	}
+	&.scroll2 {
+		.navigation {
+			position: absolute;
+			li {
+				@for $i from 1 to $nb-items+1 {
+					&:nth-of-type(#{$i}) {
+						position: relative;
+						float: left;
+						width: 100%;
+						border-radius: 0;
+						@include calc(height, "(70%/4)");
+						right: 0;
+						transform: none !important;
+					}
+				}
+			}
+		}
+	}
+	.navigation {
+		@extend %goo;
+		$width: 300px;
+		$height: 300px;
+		//position: fixed;
+		right: 0px;
+		top: 0px;
+		width: $width;
+		height: $height;
+		box-sizing: border-box;
+		font-size: 30px;
+		text-align: left;
+		li {
+			@extend %ball;
+			$circle-size: 400px;
+			$rot: 90;
+			$angle: 120 / $nb-items;
+			@include transition(all 0.6s linear);
+			@for $i from 1 to $nb-items+1 {
+				&:nth-of-type(#{$i}) {
+					transform: 
+						rotate(#{$rot}deg)      
+						translate($circle-size/2)
+						rotate(-#{$rot}deg);    
+				}
+				$rot: $rot + $angle;
+			}
+			&:hover{
+				@include gradient-horizontal($gray-dark, lighten($gray-dark, 5%));
+			}
+			a {
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: white;
+				span {
+					display: none;
+				}
+				i {
+					position: absolute;
+					line-height: 0.9;
+					left: 50%;
+					top: 50%;
+					@include translate(-50%, -50%);
+				}
+			}
+		}
+	}
+}

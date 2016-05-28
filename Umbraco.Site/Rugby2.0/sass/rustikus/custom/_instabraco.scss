@@ -1,0 +1,100 @@
+$itemToShow: 5;
+.widget-instagram {
+	
+	.big-wrap {
+		position: relative;
+		height: 310px;
+	}
+	.big-item {
+		margin-bottom: 0;
+		//position: absolute;
+		position: relative;
+		float: left;
+		top: 0;
+		left: 0;
+		//@include wh(100%, 100%);
+		display: none;
+		width: 100% / $itemToShow;
+		@include aspect-ratio(1, 1);
+		.big-item-img {
+			display: block;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+			/* width: 100%;
+			height: 310px; */
+			overflow: hidden;
+		}
+
+		$i: 1;
+		@while $i < $itemToShow+1 {
+			&[data-item="#{$i}"] {
+				display: block;
+			}
+			$i: $i + 1;
+		}
+
+
+		&.active {
+			// display: block;
+		}
+	}
+
+	.insta-next, .insta-prev {
+		position: absolute;
+		top: 50%;
+		@include translateY(-50%);
+		display: block;
+		color: #fff;
+		z-index: 1;
+		font-size: 40px;
+
+		@include transition(all 0.4s ease-in);
+
+		cursor: pointer;
+
+		opacity: 0;
+		visibility: hidden;
+
+
+		i {
+			line-height: 0.5;
+			text-shadow: 0 1px 0 rgba(0,0,0,1);
+		}
+	}
+
+	.insta-next {
+		right: -24px;
+	}
+
+	.insta-prev {
+		left: -24px;
+	}
+
+	.widget-content {
+		padding-bottom: 0;
+	}
+
+	.bottom {
+		// padding-top: 16 !important;
+		margin-top: 0;
+
+		i {
+			color: $text-lighter;
+		}
+	}
+
+	&:hover {
+		.insta-next, .insta-prev {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.insta-next {
+			right: 0;
+		}
+		.insta-prev {
+			left: 0;
+		}
+	}
+}

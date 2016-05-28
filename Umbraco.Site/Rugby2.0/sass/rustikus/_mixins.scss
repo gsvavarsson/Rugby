@@ -1,0 +1,340 @@
+/* MIXINS - RUSTIKUS
+---------------------------------------*/
+
+
+@mixin border-radius($val) {
+	-webkit-border-radius: $val;
+	   -moz-border-radius: $val;
+	   	-ms-border-radius: $val;
+	   	 -o-border-radius: $val;
+			border-radius: $val;
+}
+// BOX SHADOW
+@mixin box-shadow($val) {
+	-webkit-box-shadow: $val;
+	   -moz-box-shadow: $val;
+	    -ms-box-shadow: $val;
+	     -o-box-shadow: $val;
+			box-shadow: $val;
+}
+// TEXT SHADOW
+@mixin text-shadow($val) {
+	-webkit-text-shadow: $val;
+	   -moz-text-shadow: $val;
+			text-shadow: $val;
+}
+/* Width height */
+@mixin wh($val1, $val2) {
+	width: $val1;
+	height: $val2;
+}
+
+/* Aspect ratio */
+@mixin aspect-ratio($width, $height) {
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	}
+	> a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+/* LISTS
+------------------------------------- */
+// RESET UL AND OL
+@mixin reset-list() {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+// LIST STYLE
+@mixin list-style() {
+	// margin-top: 20px !important;
+	list-style: none;
+	padding: 0;
+	padding-left: 13px;
+
+	li {
+		text-indent: -1em;
+		padding: 0;
+		line-height: 34px;
+
+		&:before {
+			content: "\2022 ";
+			color: $brand-primary;
+			margin-right: 7px;
+		}
+	}
+}
+
+
+/* MISC
+------------------------------------- */
+// BOX-SIZING
+@mixin box-sizing($val) {
+	-webkit-box-sizing: $val;
+	   -moz-box-sizing: $val;
+	    -ms-box-sizing: $val;
+	     -o-box-sizing: $val;
+			box-sizing: $val;
+}
+// TRANSITIONS
+@mixin transition($val) {
+	-webkit-transition: $val;
+	   -moz-transition: $val;
+		-ms-transition: $val;
+		 -o-transition: $val;
+			transition: $val;
+}
+@mixin transition-delay($val) {
+	-webkit-transition-delay: $val; /* Safari */
+	   -moz-transition-delay: $val;
+		-ms-transition-delay: $val;
+		 -o-transition-delay: $val;
+			transition-delay: $val;
+}
+// APPEARANCE
+@mixin appearance($val) {
+	-webkit-appearance: $val;
+	   -moz-appearance: $val;
+		-ms-appearance: $val;
+		 -o-appearance: $val;
+			appearance: $val;
+}
+// INPUT STYLES
+@mixin input-style() {
+	border: 1px solid $border-color;
+	background: #fff;
+	color: #aaa;
+}
+
+/* TRANSFORMS
+------------------------------------- */
+@mixin skew($val1, $val2) {
+	-webkit-transform: skew($val1, $val2);
+	   -moz-transform: skew($val1, $val2);
+	    -ms-transform: skew($val1, $val2);
+	     -o-transform: skew($val1, $val2);
+			transform: skew($val1, $val2);
+}
+
+/* TRNSLATE */
+@mixin translate($val1, $val2) {
+	-webkit-transform: translate($val1, $val2);
+	   -moz-transform: translate($val1, $val2);
+	    -ms-transform: translate($val1, $val2);
+	     -o-transform: translate($val1, $val2);
+			transform: translate($val1, $val2);
+}
+@mixin translateX($val) {
+	-webkit-transform: translateX($val);
+	   -moz-transform: translateX($val);
+	    -ms-transform: translateX($val);
+	     -o-transform: translateX($val);
+			transform: translateX($val);
+}
+@mixin translateY($val) {
+	-webkit-transform: translateY($val);
+	   -moz-transform: translateY($val);
+	    -ms-transform: translateY($val);
+	     -o-transform: translateY($val);
+			transform: translateY($val);
+}
+/* SCALE */
+@mixin scale($val) {
+	-webkit-transform: scale($val);
+	   -moz-transform: scale($val);
+	    -ms-transform: scale($val);
+	     -o-transform: scale($val);
+			transform: scale($val);
+}
+/* ROTATE */
+@mixin rotate($val) {
+	-webkit-transform: rotate($val);
+	   -moz-transform: rotate($val);
+	    -ms-transform: rotate($val);
+	     -o-transform: rotate($val);
+			transform: rotate($val);
+}
+
+
+/* OPACITY */
+@mixin opacity($val, $ie) {
+	opacity: $val;
+	filter: alpha(opacity=$ie);
+}
+
+@mixin calc($property, $val) { 
+	#{$property}: -webkit-calc(#{$val}); 
+  	#{$property}: calc(#{$val}); 
+}
+
+
+/* MEDIA QUERIES
+----------------------------------*/
+@mixin desktop-xl {
+	@media #{$desktop-xl} {
+		@content;
+	}
+}
+@mixin desktop-lg {
+	@media #{$desktop-lg} {
+		@content;
+	}
+}
+@mixin desktop-sm {
+	@media #{$desktop-sm} {
+		@content;
+	}
+}
+@mixin tablet {
+	@media #{$tablet} {
+		@content;
+	}
+}
+@mixin phone-md {
+	@media #{$phone-md} {
+		@content;
+	}
+}
+@mixin phone-sm {
+	@media #{$phone-sm} {
+		@content;
+	}
+}
+@mixin watch {
+	@media #{$watch} {
+		@content;
+	}
+}
+
+
+/* ANIMATION
+----------------------------------*/
+@mixin animation($val) {
+	-webkit-animation: $val;
+	   -moz-animation: $val;
+	    -ms-animation: $val;
+	     -o-animation: $val;
+			animation: $val;
+}
+@mixin animation-delay($val) {
+	-webkit-animation-delay: $val;
+	   -moz-animation-delay: $val;
+	    -ms-animation-delay: $val;
+	     -o-animation-delay: $val;
+			animation-delay: $val;
+}
+@mixin animation-fill-mode($val) {
+	-webkit-animation-fill-mode: $val;
+	   -moz-animation-fill-mode: $val;
+	    -ms-animation-fill-mode: $val;
+	     -o-animation-fill-mode: $val;
+			animation-fill-mode: $val;
+}
+
+@mixin by-count($marg) {
+	> * {
+		/* one item */
+		&:nth-child(1):nth-last-child(1) {
+			@include calc(width, "100% - $marg");
+		}
+
+		/* two items */
+		&:nth-child(1):nth-last-child(2),
+		&:nth-child(2):nth-last-child(1) {
+			@include calc(width, "50% - " $marg);
+		}
+
+		/* three items */
+		&:nth-child(1):nth-last-child(3),
+		&:nth-child(2):nth-last-child(2),
+		&:nth-child(3):nth-last-child(1) {
+			@include calc(width, "33.33333333% - " $marg);
+		}
+
+		/* four items */
+		&:nth-child(1):nth-last-child(4),
+		&:nth-child(2):nth-last-child(3),
+		&:nth-child(3):nth-last-child(2),
+		&:nth-child(4):nth-last-child(1) {
+			@include calc(width, "25% - " $marg);
+		}
+
+		/* five items */
+		&:nth-child(1):nth-last-child(5),
+		&:nth-child(2):nth-last-child(4),
+		&:nth-child(3):nth-last-child(3),
+		&:nth-child(4):nth-last-child(2),
+		&:nth-child(5):nth-last-child(1) {
+			@include calc(width, "20% - " $marg);
+		}
+		/* six items */
+		&:nth-child(1):nth-last-child(6),
+		&:nth-child(2):nth-last-child(5),
+		&:nth-child(3):nth-last-child(4),
+		&:nth-child(4):nth-last-child(3),
+		&:nth-child(5):nth-last-child(2),
+		&:nth-child(6):nth-last-child(1) {
+			@include calc(width, "16.6666666% - " $marg);
+		}
+		/* seven items */
+		&:nth-child(1):nth-last-child(7),
+		&:nth-child(2):nth-last-child(6),
+		&:nth-child(3):nth-last-child(5),
+		&:nth-child(4):nth-last-child(4),
+		&:nth-child(5):nth-last-child(3),
+		&:nth-child(6):nth-last-child(2),
+		&:nth-child(7):nth-last-child(1) {
+			@include calc(width, "14.28% - " $marg);
+		}
+	}
+}
+
+
+/* BOOTSTRAP MIXINS
+----------------------------------*/
+// Utilities
+@import "mixins/hide-text";
+@import "mixins/opacity";
+@import "mixins/image";
+@import "mixins/labels";
+@import "mixins/reset-filter";
+@import "mixins/resize";
+@import "mixins/responsive-visibility";
+@import "mixins/size";
+@import "mixins/tab-focus";
+@import "mixins/text-emphasis";
+@import "mixins/text-overflow";
+@import "mixins/vendor-prefixes";
+
+// Components
+@import "mixins/alerts";
+@import "mixins/buttons";
+@import "mixins/panels";
+@import "mixins/pagination";
+@import "mixins/list-group";
+@import "mixins/nav-divider";
+@import "mixins/forms";
+@import "mixins/progress-bar";
+@import "mixins/table-row";
+
+// Skins
+@import "mixins/background-variant";
+@import "mixins/border-radius";
+@import "mixins/gradients";
+
+// Layout
+@import "mixins/clearfix";
+@import "mixins/center-block";
+@import "mixins/nav-vertical-align";
+@import "mixins/grid-framework";
+@import "mixins/grid";

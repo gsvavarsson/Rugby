@@ -1,0 +1,34 @@
+.featured-player {
+	position: relative;
+	overflow: hidden;
+	@include transition(all ease-in-out 0.3s); 
+	.player-info {
+		position: absolute;
+		max-height: 70px;
+		background: rgba(white, 0.8);
+		@include transition(all ease-in-out 0.7s); 
+		@include calc(width, "100% + 30px");
+		left: 0px;
+		bottom: 0;
+		padding: 15px;
+		color: black;
+		ul {
+			@include transition(all ease-in-out 0.5s);
+			@include transition-delay(0.3s);
+			opacity: 0;
+		}
+	}
+	h2 {
+		margin-top: 0;
+	}
+	&:hover {
+		.player-info {
+			background: rgba(white, 1);
+			max-height: 200px;
+			ul {
+				opacity: 1;
+			}
+		}
+
+	}
+}

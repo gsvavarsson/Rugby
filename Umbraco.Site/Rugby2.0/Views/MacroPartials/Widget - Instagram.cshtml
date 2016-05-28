@@ -1,0 +1,28 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using Instabraco.Controllers
+@using Instabraco.Models
+@using Umbraco.Web
+@using System.Web.Mvc.Html
+@using System.Web.Mvc
+
+@{
+	string hashtag = (!String.IsNullOrEmpty((string)Model.MacroParameters["instagramHashtag"]) ? (string)Model.MacroParameters["instagramHashtag"] : "motivation");
+	string itemsToShowString = ((string)Model.MacroParameters["itemsToShow"] != "" ? (string)Model.MacroParameters["itemsToShow"] : "1");
+	int itemsToShow = int.Parse(itemsToShowString);
+	var instagramItems = new Instagram("146077692.1677ed0.27b3cbac7c9944578d721635815b92e9").GetByTag(hashtag).Take(itemsToShow);
+	int count = 0;
+}
+
+<!-- INSTAGRAM -->
+<section class="widget box box-widget no-padding widget-instagram">
+	<h4 class="widget-title widget-padding no-margin">#@hashtag</h4>
+	<div class="big-wrap">
+		@foreach (var item in instagramItems)
+		{
+			count++;
+			<div class="big-item" data-item="@count">
+				<a href="@item.link" class="big-item-img" target="_blank" style="background-image:url(@item.src)"></a>
+			</div>
+		}
+	</div>
+</section><!-- .widget -->

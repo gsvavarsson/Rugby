@@ -1,0 +1,78 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+	var blogSelection = Umbraco.TypedContent(Model.MacroParameters["blogList"]);
+	var playerSelection = Umbraco.TypedContent(Model.MacroParameters["playerList"]);
+	var plansSelection = Umbraco.TypedContent(Model.MacroParameters["abroadSite"]);
+
+	var mediaIds = Model.MacroParameters["photoFolder"];
+	int mediaCount = mediaIds.ToString().Split(',').Length;
+	var mediaUrl = "";
+
+	Random r = new Random();
+	int randomNumber = r.Next(1,mediaCount+1);
+
+	int i = 0;
+	if (mediaIds != null) {
+		foreach (var mediaId in mediaIds.ToString().Split(',')) {
+			if (i == randomNumber) {
+				mediaUrl = Umbraco.TypedMedia(mediaId).Url;
+			}
+			i++;
+		}
+	}
+}
+<div class="row top-box">
+	<div class="col-md-6 full-height" style="background-image: url(@mediaUrl?width=1300&height=1000&mode=crop&quality=90);">
+		
+	</div>
+	<div class="col-md-6">
+		<div class="row">
+			<div class="col-md-12 blog-demo">
+				@foreach(var blog in blogSelection.Descendants("Article").OrderByDescending(p => p.CreateDate).Take(1)) {
+					var blogImage = blog.GetPropertyValue("photo");
+					var defaultImage = Umbraco.TypedMedia(1154);
+					var image = defaultImage;
+					<div class="blog-demo-inner">
+						@if (blog.HasValue("photo")) {
+							image = Umbraco.TypedMedia(blogImage);
+							<div class="blog-image" style="background-image: url(@image.Url?width=342&height=384&mode=crop&quality=90);"></div>
+						}
+						<h1><a>@blog.Name</a></h1>
+						<div class="blog-summary">
+							@blog.GetPropertyValue("summary")
+						</div>
+					</div>
+				}
+			</div>
+			<div class="col-md-7 upcoming text-center">
+				<h2>@plansSelection.Name</h2>
+				<ul class="list-unstyled">
+					@foreach(var eventItem in plansSelection.Descendants("UpcomingItem").OrderByDescending(p => p.CreateDate).Take(1)) {
+						<li>
+							<a href="@eventItem.Url">
+								<span>@eventItem.GetPropertyValue("dates")</span>
+								<h4>@eventItem.GetPropertyValue("what")</h4>
+						</a>
+						</li>
+					}
+				</ul>
+			</div>
+			@foreach(var player in playerSelection.Children.Where("visible").Take(1)) {
+				var playerImageId = player.GetPropertyValue("profilePicture");
+				var playerImage = Umbraco.TypedMedia(playerImageId);
+
+				<div class="col-md-5 featured-player" style="background-image: url(@playerImage.Url?width=385&height=200&mode=crop&quality=90);">
+					<div class="player-info">
+						<h2>@player.Name</h2>
+						<ul class="list-unstyled">
+							<li><label>Position: </label> @player.GetPropertyValue("position")</li>
+							<li><label>Nationality: </label> @player.GetPropertyValue("nationality")</li>
+							<li><label>Playing since: </label> @player.GetPropertyValue("playingSince")</li>
+						</ul>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>

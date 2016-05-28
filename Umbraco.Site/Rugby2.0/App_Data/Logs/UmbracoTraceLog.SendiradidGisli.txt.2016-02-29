@@ -1,0 +1,183 @@
+﻿ 2016-02-29 18:37:26,266 [P14524/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.7 application starting on SENDIRADIDGISLI
+ 2016-02-29 18:37:26,319 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-02-29 18:37:26,330 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2016-02-29 18:37:26,433 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-02-29 18:37:26,513 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 80ms)
+ 2016-02-29 18:37:26,547 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-02-29 18:37:26,547 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-02-29 18:37:26,548 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-02-29 18:37:26,548 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 0ms)
+ 2016-02-29 18:37:26,564 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-02-29 18:37:26,564 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-02-29 18:37:26,564 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-02-29 18:37:26,566 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 1ms)
+ 2016-02-29 18:37:26,624 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-02-29 18:37:26,625 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-02-29 18:37:26,625 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-02-29 18:37:26,625 [P14524/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-02-29 18:37:27,235 [P14524/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-29 18:37:27,385 [P14524/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-29 18:37:27,431 [P14524/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-02-29 18:37:27,473 [P14524/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-02-29 18:37:27,527 [P14524/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-02-29 18:37:27,585 [P14524/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-02-29 18:37:27,595 [P14524/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1381ms)
+ 2016-02-29 18:37:28,530 [P14524/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://rugby2.local:80/umbraco (UmbracoModule request)
+ 2016-02-29 18:37:29,196 [P14524/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-02-29 18:37:29,200 [P14524/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-02-29 18:37:29,702 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-29 18:37:29,708 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 6ms)
+ 2016-02-29 18:37:30,214 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-02-29 18:37:30,215 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-02-29 18:37:30,351 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2016-02-29 18:37:30,352 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 0ms)
+ 2016-02-29 18:37:30,695 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-02-29 18:37:30,695 [P14524/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2016-02-29 18:37:30,734 [P14524/D2/T11] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:37:30,771 [P14524/D2/T11] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:37:32,174 [P14524/D2/T18] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:37:32,189 [P14524/D2/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 18:38:32,008 [P14524/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-28 18:38:31
+ 2016-02-29 18:46:28,939 [P14524/D2/T47] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:46:28,943 [P14524/D2/T47] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:46:29,163 [P14524/D2/T45] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 18:55:32,328 [P14524/D2/T85] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:55:32,331 [P14524/D2/T85] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:55:32,552 [P14524/D2/T74] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 18:55:32,562 [P14524/D2/T74] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:58:06,856 [P14524/D2/T104] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 18:58:07,039 [P14524/D2/T107] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 20:14:11,452 [P14524/D2/T94] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:14:11,456 [P14524/D2/T94] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:14:11,730 [P14524/D2/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 20:14:24,772 [P14524/D2/T50] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:14:24,968 [P14524/D2/T99] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 20:15:27,691 [P14524/D2/T74] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:15:27,883 [P14524/D2/T89] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 20:15:27,889 [P14524/D2/T78] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:28:45,293 [P14524/D2/T102] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:28:45,296 [P14524/D2/T102] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:28:45,508 [P14524/D2/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 20:29:06,276 [P14524/D2/T91] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:29:06,467 [P14524/D2/T78] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 20:29:26,742 [P14524/D2/T99] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 20:29:26,909 [P14524/D2/T103] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 21:58:44,016 [P14524/D2/T638] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 21:58:44,023 [P14524/D2/T638] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 21:58:44,231 [P14524/D2/T624] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 22:08:01,060 [P14524/D2/T745] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 22:08:01,064 [P14524/D2/T745] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 22:08:01,269 [P14524/D2/T745] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 22:08:01,281 [P14524/D2/T742] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 22:15:41,682 [P14524/D2/T827] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 22:15:41,686 [P14524/D2/T827] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 22:15:41,915 [P14524/D2/T823] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 22:38:32,010 [P14524/D2/T11] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-28 22:38:32
+ 2016-02-29 22:58:19,261 [P14524/D2/T812] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address 127.0.0.1
+ 2016-02-29 22:58:19,263 [P14524/D2/T812] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address 127.0.0.1
+ 2016-02-29 22:58:19,427 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-29 22:58:19,428 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-02-29 22:58:19,514 [P14524/D2/T812] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-02-29 22:58:19,515 [P14524/D2/T812] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-02-29 22:58:19,530 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-29 22:58:19,531 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-02-29 22:58:19,570 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-29 22:58:19,570 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-02-29 22:58:19,572 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-02-29 22:58:19,573 [P14524/D2/T905] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-02-29 22:58:45,585 [P14524/D2/T776] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Um Rugby' with Id '0' has been published.
+ 2016-02-29 22:58:45,688 [P14524/D2/T776] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-02-29 22:58:45,689 [P14524/D2/T776] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2016-02-29 22:58:49,733 [P14524/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 22:58:49,740 [P14524/D2/T769] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 22:59:19,593 [P14524/D2/T801] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Keppnir' with Id '0' has been published.
+ 2016-02-29 22:59:23,616 [P14524/D2/T769] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 22:59:23,618 [P14524/D2/T780] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 23:02:26,576 [P14524/D2/T737] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rugbyfélag Reykjavíkur' with Id '1101' has been published.
+ 2016-02-29 23:02:30,624 [P14524/D2/T778] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 23:02:30,629 [P14524/D2/T736] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 23:02:36,050 [P14524/D2/T778] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blogs' with Id '1116' has been published.
+ 2016-02-29 23:02:40,086 [P14524/D2/T742] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 23:02:40,088 [P14524/D2/T734] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 23:02:44,063 [P14524/D2/T742] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Um Rugby' with Id '1139' has been published.
+ 2016-02-29 23:02:48,086 [P14524/D2/T778] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 23:02:48,088 [P14524/D2/T745] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 23:03:02,837 [P14524/D2/T742] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Keppnir' with Id '1140' has been published.
+ 2016-02-29 23:03:06,867 [P14524/D2/T778] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 23:03:06,869 [P14524/D2/T745] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 23:05:05,062 [P14524/D2/T698] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:05:05,066 [P14524/D2/T698] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:05:05,438 [P14524/D2/T698] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:05:09,652 [P14524/D2/T698] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:05:09,906 [P14524/D2/T698] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:05:54,724 [P14524/D2/T741] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:05:55,065 [P14524/D2/T741] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:05:56,094 [P14524/D2/T741] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:05:56,321 [P14524/D2/T741] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:07:35,841 [P14524/D2/T749] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:07:36,424 [P14524/D2/T749] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Gisli\documents\visual studio 2015\projects\rugby2.0\rugby2.0\Views\Partials\MainNavigation.cshtml(21): error CS0103: The name 'node' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\Gisli\documents\visual studio 2015\projects\rugby2.0\rugby2.0\Views\Master.cshtml:line 43
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-02-29 23:07:44,941 [P14524/D2/T704] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:07:45,712 [P14524/D2/T704] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:07:45,728 [P14524/D2/T704] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:12:31,743 [P14524/D2/T780] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:12:31,752 [P14524/D2/T780] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:12:32,795 [P14524/D2/T784] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:12:32,848 [P14524/D2/T784] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:13:45,969 [P14524/D2/T744] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:13:46,305 [P14524/D2/T744] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:14:19,198 [P14524/D2/T792] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:14:19,572 [P14524/D2/T792] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:20:00,858 [P14524/D2/T845] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blogs' with Id '1116' has been published.
+ 2016-02-29 23:20:02,613 [P14524/D2/T833] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:20:02,618 [P14524/D2/T833] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:20:02,897 [P14524/D2/T848] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:20:04,892 [P14524/D2/T728] INFO  umbraco.content - Save Xml to file...
+ 2016-02-29 23:20:04,899 [P14524/D2/T852] INFO  umbraco.content - Saved Xml to file.
+ 2016-02-29 23:23:52,974 [P14524/D2/T882] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:23:53,268 [P14524/D2/T871] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:23:56,880 [P14524/D2/T901] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:23:57,187 [P14524/D2/T900] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:23:57,203 [P14524/D2/T901] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:24:21,528 [P14524/D2/T871] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:24:21,533 [P14524/D2/T871] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1113 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:24:21,935 [P14524/D2/T871] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-02-29 23:24:21,949 [P14524/D2/T871] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:24:42,811 [P14524/D2/T892] WARN  Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache - Could not retrieve media 1154 from Examine index, reverting to looking up media via legacy library.GetMedia method
+ 2016-02-29 23:24:42,985 [P14524/D2/T891] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

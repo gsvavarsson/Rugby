@@ -1,0 +1,17 @@
+﻿ 2016-02-10 09:39:12,950 [P14768/D2/T875] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-09 09:39:12
+ 2016-02-10 13:39:12,974 [P14768/D2/T969] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-09 13:39:12
+ 2016-02-10 17:01:15,559 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-02-10 17:01:15,559 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-02-10 17:01:15,559 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-02-10 17:01:15,559 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-02-10 17:01:15,559 [P14768/D2/T932] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-02-10 17:01:15,559 [P14768/D2/T941] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-02-10 17:01:15,575 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-02-10 17:01:15,575 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-02-10 17:01:15,575 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-02-10 17:01:15,575 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-02-10 17:01:15,575 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-02-10 17:01:15,575 [P14768/D2/T919] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-02-10 17:01:15,575 [P14768/D2/T949] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-02-10 17:01:15,575 [P14768/D2/T902] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-02-10 17:01:15,575 [P14768/D2/T931] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated

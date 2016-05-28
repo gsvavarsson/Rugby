@@ -1,0 +1,148 @@
+﻿@using System.Collections.Specialized
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+	IPublishedContent cModel = ViewData["Model"] as IPublishedContent;
+	int startNodeId;
+	bool hasStartNode = int.TryParse(ViewData["startNode"].ToString(), out startNodeId);
+
+	int startLevel = int.Parse(ViewData["startLevel"].ToString());
+	int endLevel = int.Parse(ViewData["endLevel"].ToString());
+
+	string cssClass = ViewData["cssClass"].ToString();
+
+	IPublishedContent parent = (hasStartNode) ? Umbraco.TypedContent(startNodeId) : (startLevel == 0) ? Model.Content : Model.Content.AncestorOrSelf(startLevel);
+
+	if (parent != null)
+	{
+		<nav>
+			@traverse(parent, startLevel, endLevel, 1, cssClass, cModel)
+		</nav>
+	}
+}
+
+@helper traverse(IPublishedContent parent, int startLevel, int endLevel, int level, string cssClass, IPublishedContent cModel) { 
+	
+	int pos = 0;
+	
+	IEnumerable<IPublishedContent> children = parent.Children.Where(x => x.IsVisible()).OrderBy(x => x.SortOrder);
+
+	if (children.Any())
+	{
+		int count = children.Count();
+		<ul class="@(level == 1 ? cssClass : "") list-unstyled">
+			@foreach (IPublishedContent node in children)
+			{
+				pos++;
+
+				string[] path = (!string.IsNullOrEmpty(cModel.Path)) ? cModel.Path.Split(',') : new string[1];
+				int isInCurrentPath = Array.IndexOf(path, node.Id.ToString());
+
+				string liClass = (isInCurrentPath >= 0 && node.DocumentTypeAlias != "RecipeContainer" && node.DocumentTypeAlias != "ExerciseContainer") ? "active pos" + pos : "pos" + pos;
+				
+				string target = (node.DocumentTypeAlias == "ExternalLink") ? "_blank" : "_self";
+
+				string itemClass = (node.HasValue("itemClass")) ? node.GetPropertyValue<string>("itemClass") : "";
+
+				string activeItem = "";
+
+				if (NavigationNodeMatchesCurrentNode(node, cModel))
+				{
+					activeItem = "active";
+				}
+
+				string icon = "icon-" + node.GetPropertyValue<string>("customIconClass");
+				
+				<li class="level-@level @activeItem @liClass" @(pos == 1 ? "data-first=true" : "") @(pos == count ? "data-last=true" : "")>
+					<a href="@node.Url" target="@target">
+						<span>@node.Name</span>
+						<i class="@icon"></i>
+					</a>
+
+					@if (node.Level <= endLevel && node.Children.Where(x => x.IsVisible()).Count() > 0)
+					{
+						<i class="icon-arrow-67 hidden-tablet hidden-desktop"></i>
+						<div class="sub-nav-wrap">
+							<div class="containerss">
+								@traverse(node, startLevel, endLevel, 2, "", cModel)
+							</div>
+						</div>
+					}
+				</li>
+			}
+		</ul>
+	}
+}
+@functions
+{
+	bool NavigationNodeMatchesCurrentNode(IPublishedContent node, IPublishedContent cNode)
+	{
+		if ((node.DocumentTypeAlias == "RecipeCategory" || node.DocumentTypeAlias == "RecipeContainer") &&
+			cNode.DocumentTypeAlias == "RecipeContainer")
+		{
+			return CompareRecipeNodes(node, cNode);
+		}
+		else if ((node.DocumentTypeAlias == "ExerciseCategory" || node.DocumentTypeAlias == "ExerciseContainer") &&
+				 cNode.DocumentTypeAlias == "ExerciseContainer") 
+		{
+			return CompareExerciseNodes(node, cNode);
+		}
+		
+		return node.Id == cNode.Id;
+	}
+
+	bool CompareRecipeNodes(IPublishedContent node, IPublishedContent cNode)
+	{
+		if (node.DocumentTypeAlias == "RecipeCategory")
+		{
+			var nodeQueryString = GetQueryStringFromUrl(node.Url);
+			var currentQueryString = Request.QueryString;
+
+			return HttpUtility.UrlDecode(nodeQueryString["recipe_category"]) ==
+				   HttpUtility.UrlDecode(currentQueryString["recipe_category"]);
+		}
+
+		//Currently not in use since "All" navigation item is hidden.
+		if (node.DocumentTypeAlias == "RecipeContainer")
+		{
+			var currentQueryString = Request.QueryString;
+			var currentCategory = currentQueryString["recipe_category"];
+
+			var navigationCategories = cNode.ContentSet.Where(p => p.DocumentTypeAlias == "RecipeCategory").Select(p => p.Name).ToArray();
+
+			return !navigationCategories.Contains(HttpUtility.UrlDecode(currentCategory));
+		}
+		
+		return false;
+	}
+
+	bool CompareExerciseNodes(IPublishedContent node, IPublishedContent cNode)
+	{
+		if (node.DocumentTypeAlias == "ExerciseCategory")
+		{
+			var nodeQueryString = GetQueryStringFromUrl(node.Url);
+			var currentQueryString = Request.QueryString;
+
+			return HttpUtility.UrlDecode(nodeQueryString["exercise_muscle"]) ==
+				   HttpUtility.UrlDecode(currentQueryString["exercise_muscle"]);
+		}
+
+		if (node.DocumentTypeAlias == "ExerciseContainer")
+		{
+			var currentQueryString = Request.QueryString;
+			var currentCategory = currentQueryString["exercise_muscle"];
+
+			var navigatinCategories = cNode.ContentSet.Where(p => p.DocumentTypeAlias == "ExerciseCategory").Select(p => p.Name).ToArray();
+
+			return !navigatinCategories.Contains(HttpUtility.UrlDecode(currentCategory));
+		}
+		
+		return false;
+	}
+
+	NameValueCollection GetQueryStringFromUrl(string url)
+	{
+		var parts = (url ?? "").Split('?');
+		return HttpUtility.ParseQueryString(parts.Length > 1 ? parts[1] : "");
+	}
+}

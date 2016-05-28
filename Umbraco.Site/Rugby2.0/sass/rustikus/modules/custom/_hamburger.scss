@@ -1,0 +1,36 @@
+/* HAMBURGER
+---------------------------------------*/
+
+.hamburger {
+	float: right;
+	border-left: 1px solid $border-color;
+	padding: 22px;
+	background: #fff;
+	display: none;
+	@include transition(background 0.3s ease-in-out);
+
+	
+	span {
+		display: block;
+		width: 26px;
+		height: 2px;
+		margin-top: 5px;
+		background: $brand-primary;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	&:hover {
+		background: darken(#fff, 3%);
+	}
+	
+	@include tablet {
+		display: block;
+	}
+	@include phone-md {
+		display: block;
+	}
+
+}

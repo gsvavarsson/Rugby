@@ -1,0 +1,7 @@
+﻿ 2016-02-12 10:38:58,137 [P14224/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-11 10:38:58
+ 2016-02-12 14:38:58,151 [P14224/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-02-11 14:38:58
+ 2016-02-12 16:22:54,044 [P14224/D2/T1185] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username gisli from IP address 127.0.0.1
+ 2016-02-12 16:23:00,548 [P14224/D2/T1180] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username admin from IP address 127.0.0.1
+ 2016-02-12 16:23:00,548 [P14224/D2/T1180] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: admin logged in from IP address 127.0.0.1
+ 2016-02-12 16:23:00,575 [P14224/D2/T1174] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-02-12 16:23:00,575 [P14224/D2/T1174] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)

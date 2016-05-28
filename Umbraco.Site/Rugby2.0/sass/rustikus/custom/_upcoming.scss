@@ -1,0 +1,14 @@
+.upcoming {
+	background: $brand-info;
+	li {
+		a {
+			color: white;
+		}
+		span {
+			color: darken(white, 14%);
+		}
+		h4 {
+			margin-top: 10px;
+		}
+	}
+}

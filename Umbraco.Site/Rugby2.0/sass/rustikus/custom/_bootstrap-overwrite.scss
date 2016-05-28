@@ -1,0 +1,22 @@
+/* BOOTSTRAP OVERWRITES
+---------------------------------------*/
+
+
+.btn {
+
+	&.btn-primary {
+
+		&:hover {
+
+		}
+	}
+
+}
+
+.form-control {
+
+	&:focus {
+		outline: none;
+		@include box-shadow(0 0 0 0);
+	}
+}
